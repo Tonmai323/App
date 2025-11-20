@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta charset="UTF-8"
     <title>Document</title>
+    <head>
+    <body>
+        <?php
+        echo "Hello World!";
+        echo "<br>";
+        echo "<h2>My Name is pirat </h2>";
+        echo 'PHP version: ' . phpversion();
+        phpinfo();
+        
+        ?>
+    </body>
 </head>
-<body>
-    <?php
-    echo "Hell, World!";
-    echo "<br>";
-    echo "<h2>My Name is john Doe.</h2>";
-    ?>
-</body>
 </html>
